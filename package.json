@@ -1,0 +1,19 @@
+{
+  "name": "diploma-dude-docs",
+  "version": "1.0.0",
+  "description": "Documentation site for Diploma Dude project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "vitepress build docs && gh-pages -d docs/.vitepress/dist"
+  },
+  "keywords": ["documentation", "vitepress"],
+  "author": "D. Deva Harsha",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "gh-pages": "^6.1.1"
+  }
+}
