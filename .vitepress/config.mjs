@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Diploma Dude',
   description: 'Documentation for Diploma Dude project',
-  base: '/', // For local dev
+  base: '/diplomadude/', // For GitHub Pages
   themeConfig: {
     outline: {
       label: 'Quick Links'
